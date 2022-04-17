@@ -1,0 +1,17 @@
+{
+  "name": "temis",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "migrate": "node ./db/migration.db.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
