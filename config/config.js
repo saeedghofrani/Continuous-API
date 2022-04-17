@@ -15,7 +15,7 @@ const development = {
         host: process.env.DEV_DB_HOST || 'localhost',
         user: process.env.DEV_DB_USER || "root",
         database: process.env.DEV_DB_NAME || 'CAPI_DB',
-        password: process.env.DEV_DB_PASSWORD || '09211953839',
+        password: process.env.DEV_DB_PASSWORD || '123456',
         dialect: 'mysql',
     },
 };
